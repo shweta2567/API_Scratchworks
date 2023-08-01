@@ -74,4 +74,14 @@ public class payload {
 				+ "";
 	
 	}
+	public static String Addbook(String isbn, String aisle) {
+		// TODO Auto-generated method stub
+		return " {\r\n"
+				+ "        \"book_name\": \"Learn Appium Automation with Java\",\r\n"
+				+ "        \"isbn\": \""+isbn+"\",\r\n"
+				+ "        \"aisle\": \""+aisle+"\",\r\n"
+				+ "        \"author\": \"John foer\"\r\n"
+				+ "    }\r\n"
+				+ "]";
+	}
 }
